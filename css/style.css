@@ -84,8 +84,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#294d89', end
 @media screen and (max-width: 992px) {
     .imagen1{
         position: relative;
-        top:-30px;
+        top:400px;
         left: 0px
+    }
+    .imagen2{
+        position: relative;
+        top:-1000px;
+        left: 0px;
+    }
+
+    .imagen3{
+        position: relative;
+        top:-580px;
+        right: 0px;
+       margin-bottom: -1000px;
+    
     }
 }
 
