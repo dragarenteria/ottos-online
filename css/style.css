@@ -60,7 +60,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#294d89', end
 .imagen1{
     position: relative;
     top:-40px;
-    left: -450px
+    left: 60px
+}
+.imagen2{
+    position: relative;
+    top:-50px;
+    left: 60px
+
+}
+.imagen3{
+    position: relative;
+    top:300px;
+    right: 60px
+
 }
 
 .modal_color{
