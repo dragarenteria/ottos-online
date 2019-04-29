@@ -16,6 +16,18 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'VWText';
+    src: url('original_VWText-Regular/original_VWText-Regular.eot?#iefix') format('embedded-opentype'), 
+         url('original_VWText-Regular/original_VWText-Regular.woff') format('woff'),
+         url('original_VWText-Regular/original_VWText-Regular.ttf') format('truetype'),
+         url('original_VWText-Regular/original_VWText-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+    font-family: 'VWText', Sans-Serif;
+}
 .otto_rojo{
     background: #820926
 }
@@ -26,8 +38,13 @@
 }
 .seccion1 h5 {
     font-size: 50px;
+    letter-spacing: 5px;
+    font-family: 'BadaBoomBB'
+}
+.badaboom{
+    letter-spacing: 3px;
+    font-family: 'BadaBoomBB'
 
-    font-family: 'BadaBoomBB', Sans-Serif
 }
 .otto_azul{
     background: -moz-radial-gradient(center, ellipse cover, rgba(41,77,137,0.66) 33%, rgba(41,77,137,0.87) 50%, rgba(41,77,137,1) 61%);
@@ -40,7 +57,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8294d89', e
     background: #f8cf47
 }
 .otto_footer{
-    font-size: 10px;
+    font-size: 15px;
 }
 .color_input{
     /* background:#8cc5d8; */
