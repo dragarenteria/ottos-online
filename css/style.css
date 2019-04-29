@@ -34,12 +34,6 @@
 background: -webkit-radial-gradient(center, ellipse cover, rgba(41,77,137,0.66) 33%,rgba(41,77,137,0.87) 50%,rgba(41,77,137,1) 61%);
 background: radial-gradient(ellipse at center, rgba(41,77,137,0.66) 33%,rgba(41,77,137,0.87) 50%,rgba(41,77,137,1) 61%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8294d89', endColorstr='#294d89',GradientType=1 );
-    /* background: #294d89; */
-    /* background: #294d89;
-background: -moz-radial-gradient(center, ellipse cover, #294d89 14%, #294d89 41%, #294d89 46%, #294d89 51%, #294d89 51%);
-background: -webkit-radial-gradient(center, ellipse cover, #294d89 14%,#294d89 41%,#294d89 46%,#294d89 51%,#294d89 51%);
-background: radial-gradient(ellipse at center, #294d89 14%,#294d89 41%,#294d89 46%,#294d89 51%,#294d89 51%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#294d89', endColorstr='#294d89',GradientType=1 ); */
 }
 
 .btn-form{
