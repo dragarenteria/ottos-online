@@ -21,6 +21,8 @@
 }
 .seccion1 {
     font-size: 15px;
+    
+
 }
 .seccion1 h5 {
     font-size: 50px;
@@ -58,46 +60,82 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#294d89', end
 
 }
 .imagen1{
-    position: relative;
-    top:-40px;
-    left: 60px
+    z-index:3;
+    margin-top: -40px;
+    /* position: relative; */
+    /* top:-40px;
+    left: 60px; */
+    /* margin-bottom: */
 }
 .imagen2{
-    position: relative;
-    top:-50px;
-    left: 60px;
+    margin-left: -60px;
+    margin-top: -40px;
+
+
+
+    /* position: relative; */
+    /* top:-150px;
+    left: 70px; */
+    /* margin-bottom: */
    
 
 }
 .imagen3{
-    position: relative;
-    top:300px;
-    right: 60px
+
+    margin-top: 290px;
+    margin-left:-135px;
+    /* width: 40% !important; */
+    /* position: relative; */
+    /* top:300px;
+    right: 30px; */
+    /* margin-bottom: */
 
 }
+/* .imagen2{
+
+    
+} */
 
 .modal_color{
     background:#08111f;
     opacity:0.9
 }
 
+/*  */
+
+.lSPager{
+    display: none !important;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    /* margin-right: -10px !important; */
+    cursor:pointer;
+}
+/*  */
 @media screen and (max-width: 992px) {
     .imagen1{
-        position: relative;
-        top:400px;
-        left: 0px
+        margin-top: 10px;
+    }
+    .seccion1{
+        
+        z-index: 3;
     }
     .imagen2{
-        position: relative;
-        top:-1000px;
-        left: 0px;
+        margin-top: -400px;
+        text-align: center;
+        margin-left: 0px;
     }
 
     .imagen3{
-        position: relative;
-        top:-580px;
-        right: 0px;
-       margin-bottom: -1000px;
+        margin-left: 0px;
+        margin-top: 20px;
+        
     
     }
 }
