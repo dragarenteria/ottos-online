@@ -1,0 +1,136 @@
+@font-face {
+	font-family: 'BadaBoomBB';
+    src: url('badaboom_bb/original_BADABB__.eot?#iefix') format('embedded-opentype'), 
+         url('badaboom_bb/original_BADABB__.woff') format('woff'),
+         url('badaboom_bb/original_BADABB__.ttf') format('truetype'),
+         url('badaboom_bb/original_BADABB__.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Volkswagen-Heavy';
+    src: url('Volkswagen-Heavy/original_Volkswagen-Heavy.eot?#iefix') format('embedded-opentype'), 
+         url('Volkswagen-Heavy/original_Volkswagen-Heavy.woff') format('woff'),
+         url('Volkswagen-Heavy/original_Volkswagen-Heavy.ttf') format('truetype'),
+         url('Volkswagen-Heavy/original_Volkswagen-Heavy.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.otto_rojo{
+    background: #820926
+}
+.seccion1 {
+    font-size: 15px;
+    
+
+}
+.seccion1 h5 {
+    font-size: 50px;
+
+    font-family: 'BadaBoomBB', Sans-Serif
+}
+.otto_azul{
+    background: -moz-radial-gradient(center, ellipse cover, rgba(41,77,137,0.66) 33%, rgba(41,77,137,0.87) 50%, rgba(41,77,137,1) 61%);
+background: -webkit-radial-gradient(center, ellipse cover, rgba(41,77,137,0.66) 33%,rgba(41,77,137,0.87) 50%,rgba(41,77,137,1) 61%);
+background: radial-gradient(ellipse at center, rgba(41,77,137,0.66) 33%,rgba(41,77,137,0.87) 50%,rgba(41,77,137,1) 61%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8294d89', endColorstr='#294d89',GradientType=1 );
+}
+
+.btn-form{
+    background: #f8cf47
+}
+.otto_footer{
+    font-size: 10px;
+}
+.color_input{
+    /* background:#8cc5d8; */
+    background: #6db6cf;
+    background: -moz-linear-gradient(left, #6db6cf 13%, #6db6cf 13%, #6db6cf 18%, #a7c7dc 69%, #a7c7dc 97%, #a7c7dc 97%);
+    background: -webkit-linear-gradient(left, #6db6cf 13%,#6db6cf 13%,#6db6cf 18%,#a7c7dc 69%,#a7c7dc 97%,#a7c7dc 97%);
+    background: linear-gradient(to right, #6db6cf 13%,#6db6cf 13%,#6db6cf 18%,#a7c7dc 69%,#a7c7dc 97%,#a7c7dc 97%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db6cf', endColorstr='#a7c7dc',GradientType=1 );
+
+    
+
+}
+.imagen1{
+    z-index:3;
+    margin-top: -40px;
+    /* position: relative; */
+    /* top:-40px;
+    left: 60px; */
+    /* margin-bottom: */
+}
+.imagen2{
+    margin-left: -60px;
+    margin-top: -40px;
+
+
+
+    /* position: relative; */
+    /* top:-150px;
+    left: 70px; */
+    /* margin-bottom: */
+   
+
+}
+.imagen3{
+
+    margin-top: 290px;
+    margin-left:-135px;
+    /* width: 40% !important; */
+    /* position: relative; */
+    /* top:300px;
+    right: 30px; */
+    /* margin-bottom: */
+
+}
+/* .imagen2{
+
+    
+} */
+
+.modal_color{
+    background:#08111f;
+    opacity:0.9
+}
+
+/*  */
+
+.lSPager{
+    display: none !important;
+}
+ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom:0;
+}
+li {
+    display: block;
+    float: left;
+    /* margin-right: -10px !important; */
+    cursor:pointer;
+}
+/*  */
+@media screen and (max-width: 992px) {
+    .imagen1{
+        margin-top: 10px;
+    }
+    .seccion1{
+        
+        z-index: 3;
+    }
+    .imagen2{
+        margin-top: -400px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .imagen3{
+        margin-left: 0px;
+        margin-top: 20px;
+        
+    
+    }
+}
+
