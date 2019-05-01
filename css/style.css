@@ -1,84 +1,96 @@
 @font-face {
-	font-family: 'BadaBoomBB';
-    src: url('badaboom_bb/original_BADABB__.eot?#iefix') format('embedded-opentype'), 
-         url('badaboom_bb/original_BADABB__.woff') format('woff'),
-         url('badaboom_bb/original_BADABB__.ttf') format('truetype'),
-         url('badaboom_bb/original_BADABB__.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'BadaBoomBB';
+    src: url('badaboom_bb/original_BADABB__.eot?#iefix') format('embedded-opentype'),
+        url('badaboom_bb/original_BADABB__.woff') format('woff'),
+        url('badaboom_bb/original_BADABB__.ttf') format('truetype'),
+        url('badaboom_bb/original_BADABB__.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
-	font-family: 'Volkswagen-Heavy';
-    src: url('Volkswagen-Heavy/original_Volkswagen-Heavy.eot?#iefix') format('embedded-opentype'), 
-         url('Volkswagen-Heavy/original_Volkswagen-Heavy.woff') format('woff'),
-         url('Volkswagen-Heavy/original_Volkswagen-Heavy.ttf') format('truetype'),
-         url('Volkswagen-Heavy/original_Volkswagen-Heavy.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'Volkswagen-Heavy';
+    src: url('Volkswagen-Heavy/original_Volkswagen-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('Volkswagen-Heavy/original_Volkswagen-Heavy.woff') format('woff'),
+        url('Volkswagen-Heavy/original_Volkswagen-Heavy.ttf') format('truetype'),
+        url('Volkswagen-Heavy/original_Volkswagen-Heavy.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
-	font-family: 'VWText';
-    src: url('original_VWText-Regular/original_VWText-Regular.eot?#iefix') format('embedded-opentype'), 
-         url('original_VWText-Regular/original_VWText-Regular.woff') format('woff'),
-         url('original_VWText-Regular/original_VWText-Regular.ttf') format('truetype'),
-         url('original_VWText-Regular/original_VWText-Regular.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'VWText';
+    src: url('original_VWText-Regular/original_VWText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('original_VWText-Regular/original_VWText-Regular.woff') format('woff'),
+        url('original_VWText-Regular/original_VWText-Regular.ttf') format('truetype'),
+        url('original_VWText-Regular/original_VWText-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-body{
+
+body {
     font-family: 'VWText', Sans-Serif;
 }
-.otto_rojo{
+
+.otto_rojo {
     background: #820926
 }
+
 .seccion1 {
     font-size: 15px;
-    
+
 
 }
+
 .seccion1 h5 {
     font-size: 50px;
     letter-spacing: 5px;
     font-family: 'BadaBoomBB'
 }
-.badaboom{
+
+.badaboom {
     letter-spacing: 3px;
     font-family: 'BadaBoomBB'
 
 }
-.otto_azul{
-    background: -moz-radial-gradient(center, ellipse cover, rgba(41,77,137,0.66) 33%, rgba(41,77,137,0.87) 50%, rgba(41,77,137,1) 61%);
-background: -webkit-radial-gradient(center, ellipse cover, rgba(41,77,137,0.66) 33%,rgba(41,77,137,0.87) 50%,rgba(41,77,137,1) 61%);
-background: radial-gradient(ellipse at center, rgba(41,77,137,0.66) 33%,rgba(41,77,137,0.87) 50%,rgba(41,77,137,1) 61%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8294d89', endColorstr='#294d89',GradientType=1 );
+
+.otto_azul {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(41, 77, 137, 0.66) 33%, rgba(41, 77, 137, 0.87) 50%, rgba(41, 77, 137, 1) 61%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(41, 77, 137, 0.66) 33%, rgba(41, 77, 137, 0.87) 50%, rgba(41, 77, 137, 1) 61%);
+    background: radial-gradient(ellipse at center, rgba(41, 77, 137, 0.66) 33%, rgba(41, 77, 137, 0.87) 50%, rgba(41, 77, 137, 1) 61%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a8294d89', endColorstr='#294d89', GradientType=1);
 }
 
-.btn-form{
+.btn-form {
     background: #f8cf47
 }
-.otto_footer{
+
+.otto_footer {
     font-size: 15px;
 }
-.color_input{
+
+.color_input {
     /* background:#8cc5d8; */
     background: #6db6cf;
     background: -moz-linear-gradient(left, #6db6cf 13%, #6db6cf 13%, #6db6cf 18%, #a7c7dc 69%, #a7c7dc 97%, #a7c7dc 97%);
-    background: -webkit-linear-gradient(left, #6db6cf 13%,#6db6cf 13%,#6db6cf 18%,#a7c7dc 69%,#a7c7dc 97%,#a7c7dc 97%);
-    background: linear-gradient(to right, #6db6cf 13%,#6db6cf 13%,#6db6cf 18%,#a7c7dc 69%,#a7c7dc 97%,#a7c7dc 97%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db6cf', endColorstr='#a7c7dc',GradientType=1 );
+    background: -webkit-linear-gradient(left, #6db6cf 13%, #6db6cf 13%, #6db6cf 18%, #a7c7dc 69%, #a7c7dc 97%, #a7c7dc 97%);
+    background: linear-gradient(to right, #6db6cf 13%, #6db6cf 13%, #6db6cf 18%, #a7c7dc 69%, #a7c7dc 97%, #a7c7dc 97%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6db6cf', endColorstr='#a7c7dc', GradientType=1);
 
-    
+
 
 }
-.imagen1{
-    z-index:3;
+
+.imagen1 {
+    z-index: 3;
     margin-top: -40px;
     /* position: relative; */
     /* top:-40px;
     left: 60px; */
     /* margin-bottom: */
 }
-.imagen2{
+
+.imagen2 {
     margin-left: -60px;
     margin-top: -40px;
 
@@ -88,13 +100,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8294d89', e
     /* top:-150px;
     left: 70px; */
     /* margin-bottom: */
-   
+
 
 }
-.imagen3{
+
+.imagen3 {
 
     margin-top: 290px;
-    margin-left:-135px;
+    margin-left: -135px;
     /* width: 40% !important; */
     /* position: relative; */
     /* top:300px;
@@ -102,52 +115,150 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a8294d89', e
     /* margin-bottom: */
 
 }
+
 /* .imagen2{
 
     
 } */
 
-.modal_color{
-    background:#08111f;
-    opacity:0.9
+.modal_color {
+    background: #08111f;
+    opacity: 0.9
 }
 
 /*  */
 
-.lSPager{
+.lSPager {
     display: none !important;
 }
+
 ul {
     list-style: none outside none;
     padding-left: 0;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
+
 li {
     display: block;
     float: left;
     /* margin-right: -10px !important; */
-    cursor:pointer;
+    cursor: pointer;
 }
-/*  */
-@media screen and (max-width: 992px) {
-    .imagen1{
+
+
+.tabla-1 {
+    position: absolute;
+    top: 500px;
+    left: 85px;
+    z-index: 3;
+
+}
+
+.tabla-1 div div {
+    background: white;
+    margin: 2px;
+    color: #a41933;
+    width: 35px !important;
+    height: 50px !important;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-top: 3px;
+    font-family: Volkswagen-Heavy;
+    cursor: pointer;
+
+}
+
+.tabla-2 {
+    position: absolute;
+    top: 500px;
+    margin-right: 50px;
+    margin-left: 320px;
+    z-index: 3;
+}
+
+.tabla-2 div div {
+    background: white;
+    margin: 2px;
+    color: #a41933;
+    width: 200px !important;
+    height: 50px !important;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-top: 3px;
+    font-family: Volkswagen-Heavy;
+    cursor: pointer;
+}
+
+/* Medi querys */
+/* @media screen and (max-width: 992px) {
+    
+} */
+
+/* escritorio grande  */
+@media (min-width: 1200px) {}
+
+/* Tablet 2 */
+@media (max-width: 1199.98px) {}
+
+/* tablet */
+@media (max-width: 991.98px) {}
+
+/* Media queries movil */
+@media (max-width: 767.98px) {
+    .tabla-1 {
+        z-index: 4;
+        top: 750px;
+    }
+
+    .tabla-1 div div {
+        width: 45px !important;
+        font-size: 25px;
+        padding-top: 5px !important;
+        padding-left: 5px !important;
+    }
+
+
+    .tabla-2 {
+        z-index: 4;
+        top: 1180px;
+        margin-right: 30px;
+        margin-left: 0px !important;
+    }
+
+    .tabla-2 div div {
+        width: 35px !important;
+        font-size: 25px;
+        padding-top: 5px !important;
+        padding-left: 5px !important;
+    }
+
+
+
+    .imagen1 {
         margin-top: 10px;
     }
-    .seccion1{
-        
+
+    .seccion1 {
+
         z-index: 3;
     }
-    .imagen2{
+
+    .imagen2 {
         margin-top: -400px;
         text-align: center;
         margin-left: 0px;
     }
 
-    .imagen3{
+    .imagen3 {
         margin-left: 0px;
         margin-top: 20px;
-        
-    
     }
+
+
+
 }
 
+/* @media screen and (min-width: 1199.98px) {
+
+
+} */
